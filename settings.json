@@ -1,0 +1,13 @@
+{
+  "_comment": "MLAT System Configuration – edit before deploying",
+
+  "hedera_topic_id": "0.0.1234567",
+  "hedera_mirror_url": "https://mainnet-public.mirrornode.hedera.com",
+
+  "correlation_window_s": 0.050,
+  "min_receivers": 4,
+  "max_clock_drift_ns": 1000.0,
+  "peer_refresh_interval_s": 300.0,
+
+  "_note": "Set FOURDSSKY_API_TOKEN env variable instead of hardcoding here"
+}
